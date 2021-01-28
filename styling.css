@@ -1,3 +1,6 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
 
 #container {
     width: 1050px;
@@ -59,6 +62,9 @@ h1 a{
 #menu{
     height:70px;
     background: linear-gradient(#F8F594, #D5D533);
+    background: -webkit-linear-gradient(#F8F594, #D5D533);
+    background: -o-linear-gradient(#F8F594, #D5D533);
+    background: -moz-linear-gradient(#F8F594, #D5D533);
     padding: 7px 0;
 }
 
@@ -94,4 +100,91 @@ ul{
     font-size: 20px;
     font-weight: bold;
     color:#B314DB;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    background: -webkit-linear-gradient(#E5F2BB, #B7E952);
+    background: -o-linear-gradient(#E5F2BB, #B7E952);
+    background: -moz-linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #628F19;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color:#628F19;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color:#B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    padding: 4px 0 4px 4px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li {
+    padding: 17px 0 17px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#5d12e7;
+    -webkit-transition: font_size 0.3s ease; 
+    -moz-transition: font_size 0.3s ease; 
+    -o-transition: font_size 0.3s ease; 
+    -ms-transition: font_size 0.3s ease; 
+    transition: font_size 0.3s ease; 
+
+}
+
+.sidebar ul li a:hover, .sidebarul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    background: -webkit-linear-gradient(#F6F390, #D5D533);
+    background: -o-linear-gradient(#F6F390, #D5D533);
+    background: -moz-linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: 1px solid #C8D03E;
 }
